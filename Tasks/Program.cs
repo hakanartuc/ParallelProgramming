@@ -7,10 +7,7 @@ namespace Tasks
 
         static void Main(string[] args)
         {
-            // CancellingTasks.CancelableTasks();
-            // CancellingTasks.MonitoringCancelation();
-            // CancellingTasks.CompositeCancelationToken();
-            // CancellingTasks.WaitingForTimeToPass();
+            WaitingForTasks.WaitTasks();
 
             Console.WriteLine("Main program done");
             Console.ReadKey();
