@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataSharingSynchronization
 {
@@ -10,6 +6,10 @@ namespace DataSharingSynchronization
     {
         static void Main(string[] args)
         {
+            BankAccount.TestBalance();
+
+            Console.ReadKey();
         }
+
     }
 }
