@@ -6,7 +6,8 @@ namespace DataSharingSynchronization
     {
         static void Main(string[] args)
         {
-            BankAccount.TestBalance();
+            // BankAccount.TestBalance();
+            BankAccountInterLocked.InterlockedOperations();
 
             Console.ReadKey();
         }
