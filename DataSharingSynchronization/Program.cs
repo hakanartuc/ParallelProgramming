@@ -6,10 +6,11 @@ namespace DataSharingSynchronization
     {
         static void Main(string[] args)
         {
-            // BankAccount.TestBalance();
-            BankAccountInterLocked.InterlockedOperations();
+            //SpingLocking.SpinLockDemo();
+            SpingLocking.LockRecursion(5);
 
             Console.ReadKey();
+           
         }
 
     }
