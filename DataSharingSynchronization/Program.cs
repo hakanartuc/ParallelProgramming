@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataSharingSynchronization
 {
@@ -10,6 +6,17 @@ namespace DataSharingSynchronization
     {
         static void Main(string[] args)
         {
+            //SpingLocking.SpinLockDemo();
+            //SpingLocking.LockRecursion(5);
+
+            //MutexExample.LocalMutex();
+            MutexExample.GlobalMutex();
+
+            Console.WriteLine("All done here.");
+            Console.ReadKey();
+            
+
         }
+
     }
 }
