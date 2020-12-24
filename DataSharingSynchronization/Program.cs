@@ -10,7 +10,9 @@ namespace DataSharingSynchronization
             //SpingLocking.LockRecursion(5);
 
             //MutexExample.LocalMutex();
-            MutexExample.GlobalMutex();
+            //MutexExample.GlobalMutex();
+
+            ReaderWriterLocks.Execute();
 
             Console.WriteLine("All done here.");
             Console.ReadKey();
