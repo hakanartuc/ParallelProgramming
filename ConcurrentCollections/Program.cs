@@ -6,7 +6,8 @@ namespace ConcurrentCollections
     {
         static void Main(string[] args)
         {
-            ConcurrentDictionaryDemo.Execute();
+            //ConcurrentDictionaryDemo.Execute();
+            ConcurretnQueueDemo.ExecuteBag();
 
             Console.ReadKey();
         }
