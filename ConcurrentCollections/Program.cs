@@ -7,9 +7,11 @@ namespace ConcurrentCollections
         static void Main(string[] args)
         {
             //ConcurrentDictionaryDemo.Execute();
-            ConcurretnQueueDemo.ExecuteBag();
+            //ConcurretnQueueDemo.ExecuteBag();
 
-            Console.ReadKey();
+            BlockingCollectionDemo.Execute();
+            
+            //Console.ReadKey();
         }
     }
 }

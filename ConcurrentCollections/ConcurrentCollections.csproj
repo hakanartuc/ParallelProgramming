@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlockingCollectionDemo.cs" />
     <Compile Include="ConcurrentDictionaryDemo.cs" />
     <Compile Include="ConcurretnQueueDemo.cs" />
     <Compile Include="Program.cs" />
