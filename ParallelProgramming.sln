@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSharingSynchronization"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentCollections", "ConcurrentCollections\ConcurrentCollections.csproj", "{0019E7AA-905C-47C0-938F-0A86FA4BAFBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCoordination", "TaskCoordination\TaskCoordination.csproj", "{12BE0CF5-4ACB-414B-8E1E-AA579882A346}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0019E7AA-905C-47C0-938F-0A86FA4BAFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0019E7AA-905C-47C0-938F-0A86FA4BAFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0019E7AA-905C-47C0-938F-0A86FA4BAFBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12BE0CF5-4ACB-414B-8E1E-AA579882A346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12BE0CF5-4ACB-414B-8E1E-AA579882A346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12BE0CF5-4ACB-414B-8E1E-AA579882A346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12BE0CF5-4ACB-414B-8E1E-AA579882A346}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
