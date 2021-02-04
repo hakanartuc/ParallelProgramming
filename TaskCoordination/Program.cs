@@ -7,7 +7,8 @@ namespace TaskCoordination
         static void Main(string[] args)
         {
             //CreatingContinuationsDemo.ContinueWhen();
-            CreatingContinuationsDemo.SimpleContinuation();
+            //CreatingContinuationsDemo.SimpleContinuation();
+            ChildTasks.Execute();
 
             Console.ReadLine();
         }
