@@ -8,7 +8,8 @@ namespace TaskCoordination
         {
             //CreatingContinuationsDemo.ContinueWhen();
             //CreatingContinuationsDemo.SimpleContinuation();
-            ChildTasks.Execute();
+            //ChildTasks.Execute();
+            BarrierDemo.Execute();
 
             Console.ReadLine();
         }
