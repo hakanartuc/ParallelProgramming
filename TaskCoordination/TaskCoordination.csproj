@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BarrierDemo.cs" />
     <Compile Include="ChildTasks.cs" />
     <Compile Include="CreatingContinuationsDemo.cs" />
     <Compile Include="Program.cs" />
